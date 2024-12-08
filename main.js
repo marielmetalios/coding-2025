@@ -166,8 +166,104 @@ console.log(todo.text);
 
 // ---------------------------------------------------------------------------------
 //42:00 in Traversy Media Course
-// High order array methods
-// forEach, map, filter
+// High Order Array Methods - this is preferred way for iteration with arrays! 
+// forEach - loops through
+// map - create new array from array
+// filter - create new away based on condition
+// this is FUNCTIONAL PROGRAMMING, MANIPULATES DATA REALLY WELL!
 
+const todos = [
+    {
+        id: 1,
+        text: 'Take out trash',
+        isCompleted: true
+    },
 
+    {
+        id: 2,
+        text: 'Meeting with boss',
+        isCompleted: true
+    },
 
+    {
+        id: 3,
+        text: 'Dentist appt',
+        isCompleted: false
+    },
+];
+todos.forEach(function(todo)) {
+    console.log(todo.text);
+
+}
+
+// this will return a whole new array of new text (based on the text values) 
+const todoText = todos.map(function(todo)) {
+    console.log(todo.text);
+    return todo.text;
+
+// to return true values
+const todoCompleted = todos.filter(function(todo)) {
+    return todo.isCompleted === true;
+    consolelog (todoCompleted);
+
+// you can chain on other array methods. 
+
+// ---------------------------------------------------------------------------------
+// CONDITIONALS
+// double == 
+// triple === matches data types AND numbers
+// since quotes around something mean strings (i.e. '10' then x===10 will not return 10 in the below with ===!!)
+
+const x=10
+if (x == 10) {
+    console.log(x is 10)
+
+}
+
+// else if and if else are also options
+
+// or is typed with double pipes || like below:
+// and is typed with double ampersand &&
+|| , &&
+// these are used preferably over multiple if statements!
+
+// ternary operator represented by ? which is THEN 
+// and else is represented by colon :
+// below we created a variable called color, 
+// that when x is greater than 10, then the color is red, and if not, then else will be blue!
+const x = 10;
+
+const color = x > 10 ? 'red' : 'blue' ;
+console.log (color)
+
+// ^ this returns blue in console log! if you change x to 11 then it will return red!
+
+// SWITCHES
+const x = 11;
+
+const color = x > 10 ? 'red' : 'blue' ;
+console.log (color)
+
+switch (color) {
+    case 'red' :
+        console.log('color is red');
+        break;
+    case 'blue'
+        console.log('color is blue');
+        break;
+    default:
+        console.log('color is NOT red or blue')
+        break;
+}
+
+// 11 outputs color is red! 9 outputs color is blue.
+// TODO: go over this ^^^
+
+// ---------------------------------------------------------------------------------
+// FUNCTIONS
+
+// addNums allows you to add numbers together
+// we can use detault values or overwrite them with just a formula like addNumbs (5,5)
+// review screenshot in folder
+
+// arrow functions allow
