@@ -2,8 +2,7 @@
 <html>
 <body>
 
-<h1>JS Crash Course</h1>
-<p>My first paragraph.</p>
+<h1>JS Overview</h1>
 
 </body>
 <script> src="main.js"</script>
