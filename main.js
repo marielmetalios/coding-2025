@@ -165,7 +165,7 @@ console.log(todo.id);
 console.log(todo.text);
 
 // ---------------------------------------------------------------------------------
-
+//42:00 in Traversy Media Course
 // High order array methods
 // forEach, map, filter
 
