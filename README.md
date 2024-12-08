@@ -1,2 +1,11 @@
-# coding-2025
-Coding (Javascript) 2025
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JS Crash Course</h1>
+<p>My first paragraph.</p>
+
+</body>
+<script> src="main.js"</script>
+ 
+</html>
